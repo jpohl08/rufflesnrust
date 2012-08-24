@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document for Admin Styles (Theme Options style) */
+
+.group:before, .group:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.group:after { clear: both; }
+
+.admin-style-1 .group {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+	}
+.admin-style-1 .group label {
+	width:20%;
+	float:left;
+	display:block;
+	text-align:right;
+	margin-right:2%;
+	}
+.admin-style-1 .group input.input-text {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	width:70%;
+	float:left;
+	}
+.admin-style-1 hr {
+	border:none;
+	background-color:#ccc;
+	height:1px;
+	margin:10px;
+	}
+.admin-style-1 .note {
+	margin-left:22%;
+	color:#999;
+	}
+
+/*--- repeating custom field section ---*/
+fieldset.fieldset-1 {
+	border:1px solid #ccc;
+	padding:10px;
+	margin:20px 0;
+}
+fieldset.fieldset-1 legend {
+	font-weight:bold;
+	padding:5px 10px;
+	font-size:16px;
+}
+.admin-form-style-1 {
+	padding-bottom:15px;
+	margin-bottom:15px;
+	border-bottom:1px dotted #ccc;
+	}
+fieldset.fieldset-1 label {
+	display:block;
+	margin-bottom:5px;
+	}
+fieldset.fieldset-1 label.inline {
+	display:inline-block;
+	}
+fieldset.fieldset-1 .group {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+	}
+fieldset.fieldset-1 .group:last-child, .admin-style-1 .group:last-child {
+	border:none;
+	padding:0;
+	margin:0;
+	}
