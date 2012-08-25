@@ -50,7 +50,8 @@
     
      <!-- Getting Google Fonts
     ================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     
@@ -75,7 +76,7 @@
 		}
 		?>
         <div class="logo-txt">
-          <h1 id="site-title"><?php bloginfo( 'name' ); ?></h1>
+          <h1 id="site-title"><span class="ruffly"><?php bloginfo( 'name' ); ?></span></h1>
           <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
         </div>
         </a> 
