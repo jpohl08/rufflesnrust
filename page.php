@@ -13,11 +13,9 @@
 
 get_header(); ?>
 
-<?php if(true): ?>
-    <nav id="primary-nav">
-      <div class="container"> </div>
-    </nav>
-<?php endif; ?>
+<div id="white-bar">
+    I will be a giant white bar
+</div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section id="content" class="columns twelve" role="main">
