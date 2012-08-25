@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-<?php if(!is_home()): ?>
+<?php if(true): ?>
     <nav id="primary-nav">
       <div class="container"> </div>
     </nav>
