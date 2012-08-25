@@ -413,7 +413,17 @@ pre {
 	}
 #site-title {
 	color:#DEB887;
+	font-family: "Spirax", cursive;
+	text-shadow: 4px 4px 10px #FAEBD7;
 	}
+.ruffly {
+	color:#FAF0E6;
+	text-shadow: 3px 4px 7px #CD5C5C;
+}
+.rusty {
+	color:#CD5C5C;
+}
+
 article.post, .sm-top li a, .btn-top, .cancel-comment-reply a, .corner-stamp {
 	-moz-border-radius: 5px;
 	  -webkit-border-radius: 5px;
@@ -449,7 +459,7 @@ article.post .post-title a,
 ================================================== */
 
 body {
-	background-color:#FDF5E6;
+	background-color:#D3D3D3;
 	}
 #header {
 	padding:30px 0 20px 0;
@@ -735,7 +745,8 @@ body.admin-bar #primary-nav.fixed {
 
 /*** Content ***/
 #content-wrapper {
-	background:url(images/content-bg-rpt.gif) repeat;
+/*	background:url(images/content-bg-rpt.gif) repeat;*/
+	background-color:#FAF0E6;
 	padding:20px 0;
 	min-height:400px;
 	}
