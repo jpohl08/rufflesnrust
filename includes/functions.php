@@ -58,7 +58,7 @@ if (!function_exists('sampression_setup')):
          */
         add_theme_support('post-thumbnails');
 		// Custom image sizes
-		add_image_size( 'featured', 700, 400, true); // Set the size of Featured Image
+		add_image_size( 'featured', 700, 900, true); // Set the size of Featured Image
 	
         /**
          * This feature enables custom-menus support for a theme.
