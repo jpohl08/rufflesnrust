@@ -438,7 +438,7 @@ article.post, .sm-top li a, .btn-top, .cancel-comment-reply a, .corner-stamp {
 article.post .post-title,
 article.post .post-title a,
 #page-not-found-message h3 a {
-	color:#FF6600;
+	color:#B22222;
 	}
 
 #comment-header h3,
@@ -745,8 +745,9 @@ body.admin-bar #primary-nav.fixed {
 
 /*** Content ***/
 #content-wrapper {
-/*	background:url(images/content-bg-rpt.gif) repeat;*/
-	background-color:#FAF0E6;
+	/*background:url(images/content-bg-rpt.gif) repeat;*/
+	/*background-color:#FAF0E6;*/
+	background:url(images/main-texture.jpg) repeat;
 	padding:20px 0;
 	min-height:400px;
 	}
