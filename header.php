@@ -42,7 +42,8 @@
     
     <!-- Favicons
     ================================================== -->
-	<?php sampression_favicon(); ?>
+    <link rel="shortcut icon" href="images/rusty-key-favicon.png" type="image/x-icon" />
+	<!--<?php sampression_favicon(); ?>-->
 	
     <!-- CSS
     ================================================== -->
