@@ -130,11 +130,11 @@
 </header>
 <!-- #header -->
 <!-- Filter the Post by Category: We are using Isotop (http://isotope.metafizzy.co/) for Filtering: An exquisite jQuery plugin for magical layouts -->
-<?php if(is_home()): ?>
 <nav id="primary-nav">
   <div class="container">
   <a href="#" id="btn-nav-opt">show/hide</a>
   <div class="columns sixteen">
+<?php if(is_home()): ?>
     <div class="nav-label"><?php _e('Filter By:','sampression'); ?></div>
     
     <ul class="nav-listing clearfix">
@@ -161,10 +161,10 @@
         ?>
     </select>
     
+<?php endif; ?>
     </div>
   </div>
 </nav>
 <!-- #primary-nav -->
-<?php endif; ?>
 <div id="content-wrapper">
 <div class="container">
