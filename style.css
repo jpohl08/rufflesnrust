@@ -86,7 +86,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6, #comment-header {
-		color: #B22222;
+		color: #FFEFD5;
 		font-family: "Droid Serif", serif;
 		font-weight: bold;
 		line-height:1.23;
@@ -412,7 +412,7 @@ pre {
 	margin-left:20px;
 	}
 #site-title {
-	color:#FE6E41;
+	color:#DEB887;
 	}
 article.post, .sm-top li a, .btn-top, .cancel-comment-reply a, .corner-stamp {
 	-moz-border-radius: 5px;
@@ -434,11 +434,15 @@ article.post .post-title a,
 #comment-header h3,
 #comments-title,
 #comment-form-title,
-#site-description,
 .widget .widget-title,
 #page-not-found-message h3,
 #reply-title {
 	color:#8AB7AC;
+	}
+
+#site-description {
+	color:#20B2AA;
+	font-style:italic;
 	}
 	
 /* #Site Styles
@@ -462,7 +466,7 @@ a#logo-area:link {
 	margin-right:10px;
 	}
 #site-title {
-	font-size:27px;
+	font-size:45px;
 	line-height:1;
 	margin:10px 0 0 0;
 	font-weight:bold;
