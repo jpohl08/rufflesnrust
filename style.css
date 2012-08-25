@@ -412,7 +412,7 @@ pre {
 	margin-left:20px;
 	}
 #site-title {
-	color:#D3D2D1;
+	/*color:#D3D2D1;*/
 	font-family: "Spirax", cursive;
 	text-shadow: 4px 4px 10px #FAEBD7;
 	}
@@ -459,7 +459,7 @@ article.post .post-title a,
 ================================================== */
 
 body {
-	background-color:#D3D3D3;
+	background-color:#E2E1E0;
 	}
 #header {
 	padding:30px 0 20px 0;
