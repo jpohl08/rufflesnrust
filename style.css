@@ -68,7 +68,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		background: #000;
 		font: 12px/18px Arial, Helvetica, sans-serif;
 		color: #666;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -77,16 +77,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  }
  
 /* Highlight Color */
-	::-moz-selection{ background: #F60; color:#fff; text-shadow: none; }
-	::selection { background:#F60; color:#fff; text-shadow: none; }
+	::-moz-selection{ background: #C0D890; color:#fff; text-shadow: none; }
+	::selection { background:#C0D890; color:#fff; text-shadow: none; }
 /* Device onclick */	
-	a:link { -webkit-tap-highlight-color: #F60; }
+	a:link { -webkit-tap-highlight-color: #C0D890; }
 
 
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6, #comment-header {
-		color: #F60;
+		color: #B22222;
 		font-family: "Droid Serif", serif;
 		font-weight: bold;
 		line-height:1.23;
@@ -445,7 +445,7 @@ article.post .post-title a,
 ================================================== */
 
 body {
-	background-color:#fff;
+	background-color:#FDF5E6;
 	}
 #header {
 	padding:30px 0 20px 0;
@@ -491,7 +491,7 @@ a#logo-area:link {
 	margin:0 10px 0 0;
 	}
 #top-nav ul li:last-child {
-	background:none;
+	background0-color:#fff;
 	padding-right:0;
 	margin-right:0;
 	}
@@ -1213,7 +1213,7 @@ ol.commentlist article.comment {
 	margin-bottom:20px;
 	}
 .cancel-comment-reply a {
-	color:#F60;
+	color:#C0D890;
 	}
 
 #respond {
