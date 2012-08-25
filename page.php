@@ -13,6 +13,12 @@
 
 get_header(); ?>
 
+<?php if(!is_home()): ?>
+    <nav id="primary-nav">
+      <div class="container"> </div>
+    </nav>
+<?php endif; ?>
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section id="content" class="columns twelve" role="main">
   <article <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
