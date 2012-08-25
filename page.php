@@ -13,10 +13,6 @@
 
 get_header(); ?>
 
-<div id="white-bar">
-    I will be a giant white bar
-</div>
-
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section id="content" class="columns twelve" role="main">
   <article <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
